@@ -1,0 +1,71 @@
+
+/* THEME BLACK */
+:root{
+    --color-black: #000000;
+    --color-black2-shadows: #1f1f1f;
+    --color-black-bg2: #2a2a2a;
+    --color-gray: #495057;
+    --color-gray2: #3f3f3f;
+    --color-white: #c1c1c1;
+    --color-white-shadows: #c1c1c1;
+    --fuente-inter: "Inter", sans-serif;
+    --fuente-oswald: "Oswald", sans-serif;
+}
+
+body{
+    background-color: var(--color-black);
+    background-image: none;
+    transition: all 1s ease;
+
+}
+.encriptar{
+    color: var(--color-white);
+    background: var(--color-black);
+    border: 2px solid var(--color-white);
+    box-shadow: 0px 0px 20px 15px var(--color-gray);
+}
+.btn__encriptar,
+.btn__desencriptar,
+.btn__copiar {
+    background:var(--color-black);
+    border: 2px solid var(--color-white);
+    box-shadow: 0px 0px 20px 8px var(--color-gray);
+}
+.btn__encriptar:active{
+    color:var(--color-white);
+    box-shadow: inset 2px 2px 4px var(--color-white),
+    inset -3px -4px 8px var(--color-white-shadows);
+}
+.btn__desencriptar {
+    color: var(--color-white);
+    background: var(--color-black);
+}
+.btn__desencriptar:active{
+    color:var(--color-white);
+    box-shadow: inset 2px 2px 4px var(--color-white),
+    inset -3px -4px 8px var(--color-white-shadows);
+}
+.btn__copiar{
+    color: var(--color-white);
+    background: var(--color-black);
+}
+.btn__copiar:active{
+    color:var(--color-white);
+    box-shadow: inset 2px 2px 4px var(--color-white),
+    inset -3px -4px 8px var(--color-white-shadows) ;
+}
+.desencriptador{
+    border: 2px solid var(--color-white);
+    background: var(--color-black);
+    box-shadow: 0px 0px 20px 15px var(--color-gray);
+}
+.alerta,
+.alerta__encriptar,
+.alerta__desencriptar,
+.alerta__mayus,
+.alerta__mensaje1,
+.alerta__mensaje2,
+.mayusculas {
+    background-color: var(--color-black);
+    box-shadow: 0px 5px 10px var(--color-white-shadows);
+}
