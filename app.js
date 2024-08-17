@@ -20,7 +20,7 @@ document.getElementById('input__encriptar').addEventListener('input', function(e
     const alerta = document.getElementById('alerta__mayus');
     
     // Expresión regular para permitir solo letras minúsculas y números
-    const regex = /^[a-z0-9\sñ/;
+    const regex = /^[a-z0-9\sñ]/;
 
     
     if (!regex.test(originalValue)) {
